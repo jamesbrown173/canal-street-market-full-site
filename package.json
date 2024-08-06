@@ -1,0 +1,20 @@
+{
+  "name": "canal-street-market-full-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.7",
+    "toastify-js": "^1.12.0"
+  },
+  "dependencies": {
+    "boxicons": "^2.1.4"
+  }
+}
