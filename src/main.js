@@ -3,6 +3,7 @@ const menuBarItem = document.querySelectorAll(".nav-main-item");
 const sections = document.querySelectorAll(".main-section");
 const whiteSection = document.querySelector(".welcome-section");
 const blueSection = document.querySelector(".food-section");
+const body = document.querySelector("body");
 
 const redSection = document.querySelector(".retail-section");
 const yellowSection = document.querySelector(".community-section");
@@ -60,6 +61,8 @@ console.log("connected");
 
 // Function to handle menubar clicks
 const handleMenuClick = (element) => {
+  body.scrollTop = 0;
+
   // Reset the menu bar styles
   menuBarItem.forEach((element) => {
     const textElements = element.querySelectorAll("p, span");

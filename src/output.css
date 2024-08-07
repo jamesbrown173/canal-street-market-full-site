@@ -662,6 +662,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.mt-28 {
+  margin-top: 7rem;
+}
+
 .flex {
   display: flex;
 }
@@ -829,6 +833,14 @@ video {
   gap: 1.5rem;
 }
 
+.gap-28 {
+  gap: 7rem;
+}
+
+.gap-24 {
+  gap: 6rem;
+}
+
 .self-end {
   align-self: flex-end;
 }
@@ -954,6 +966,10 @@ video {
   padding: 4rem;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .p-6 {
   padding: 1.5rem;
 }
@@ -1033,16 +1049,24 @@ video {
   padding-top: 1.5rem;
 }
 
+.pt-\[120px\] {
+  padding-top: 120px;
+}
+
 .pt-\[16px\] {
   padding-top: 16px;
 }
 
-.pt-\[300px\] {
-  padding-top: 300px;
-}
-
 .pt-\[35\%\] {
   padding-top: 35%;
+}
+
+.pt-\[130px\] {
+  padding-top: 130px;
+}
+
+.pt-\[230px\] {
+  padding-top: 230px;
 }
 
 .text-left {
@@ -1125,12 +1149,32 @@ video {
   line-height: 1.625;
 }
 
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
+}
+
+.leading-\[20px\] {
+  line-height: 20px;
+}
+
+.leading-\[200px\] {
+  line-height: 200px;
+}
+
 .tracking-wider {
   letter-spacing: 0.05em;
 }
 
 .tracking-widest {
   letter-spacing: 0.1em;
+}
+
+.tracking-tighter {
+  letter-spacing: -0.05em;
 }
 
 .text-black {
